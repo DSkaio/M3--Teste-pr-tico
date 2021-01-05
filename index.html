@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
+    <title>Projeto - AgênciaM3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600&display=swap" rel="stylesheet">
+    <script rel="text/javascript" src="script.js" defer></script>
+    <script rel="text/javascript" src="jquery/jquery-3.5.1.slim.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="imagens/logo-m3.png">
+            <img class="sacola" src="imagens/sacola.png">
+            <div id="sacolaContador">0</div><!-- contadorSacola-->
+        </div><!--container -->
+        <div class="clear"></div>
+    </header>
+
+    <h1>Blusas</h1>
+
+    <div class="container">
+        <div id="produtos">   
+        </div><!-- produtos -->
+    </div><!-- container -->
+
+    <div class="container">
+    <section class="filtros">
+        
+            <h2 class="tituloFiltro">Cores</h2>
+            <div class="cores">
+                <label>
+                    <input type="checkbox" name="Amarelo" id="amarelo">
+                    Amarelo 
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" name="Azul" id="azul">
+                    Azul 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="Branco" id="branco">
+                    Branco 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="Cinza" id="cinza">
+                    Cinza 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="Laranja" id="laranja">
+                    Laranja 
+                </label><br>
+                <label>
+                    <input type="checkbox" name="vermelho" id="vermelho">
+                    Vermelho 
+                </label>
+                <label><br>
+                    <input type="checkbox" name="Verde" id="verde">
+                    Verde 
+                </label>
+            </div><!-- cores -->
+
+            <h2 class="tituloFiltro">Tamanhos</h2>
+            <div class="tamanhos">
+                <ul>
+                    <li><a href=""><span>P</span></a></li>
+                    <li><a href=""><span>M</span></a></li>
+                    <li><a href=""><span>G</span></a></li>
+                    <li><a href=""><span>GG</span></a></li>
+                    <li><a href=""><span>U</span></a></li>
+                    <li><a href=""><span>36</span></a></li>
+                    <li><a href=""><span>38</span></a></li>
+                    <li><a href=""><span>40</span></a></li>
+                    <li><a href=""><span>42</span></a></li>
+                    <li><a href=""><span>46</span></a></li>		
+                </ul>
+            </div><!--tamanhos -->
+
+            <h2 class="tituloFiltro">preco</h2>
+            <div class="preco">
+                <label>
+                    <input type="checkbox" name="0a50" id="de0a50">
+                        de R$0 até R$50
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" name="51a150" id="de51a150">
+                        de R$51 até R$150 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="151a300" id="de151a300">
+                        de R$151 até R$300 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="301a500" id="de301a500">
+                        de R$301 até R$500 
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="partirde01" id="de01">
+                        a partir de R$01 
+                </label><br>
+            </div>
+
+            <button class="limparFiltro">Limpar filtros</button>
+    </section> 
+    </div><!-- container -->
+
+    
+</body>
+
+</html>
